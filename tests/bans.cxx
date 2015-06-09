@@ -22,10 +22,10 @@ TEST_GROUP(Bans)
 TEST(Bans, IPBanComparisons)
 {
   in_addr ip1, ip2, ip3;
-  
-  ip1.S_un.S_addr = inet_addr("127.0.0.1");
-  ip2.S_un.S_addr = inet_addr("127.0.0.1");
-  ip3.S_un.S_addr = inet_addr("127.0.0.2");
+
+  ip1.s_addr = inet_addr("127.0.0.1");
+  ip2.s_addr = inet_addr("127.0.0.1");
+  ip3.s_addr = inet_addr("127.0.0.2");
   BanInfo a1(ip1, "nobody", 0, 32);
   BanInfo a2(ip2, "nobody", 0, 32);
   BanInfo a3(ip3, "nobody", 0, 32);
@@ -47,11 +47,11 @@ TEST(Bans, IPBanComparisons)
 TEST(Bans, IPBanContains)
 {
   in_addr ip1, ip2, ip3, ip4, ip5;
-  ip1.S_un.S_addr = inet_addr("127.0.0.1");
-  ip2.S_un.S_addr = inet_addr("127.0.0.5");
-  ip3.S_un.S_addr = inet_addr("127.0.5.5");
-  ip4.S_un.S_addr = inet_addr("127.5.5.5");
-  ip5.S_un.S_addr = inet_addr("128.1.2.3");
+  ip1.s_addr = inet_addr("127.0.0.1");
+  ip2.s_addr = inet_addr("127.0.0.5");
+  ip3.s_addr = inet_addr("127.0.5.5");
+  ip4.s_addr = inet_addr("127.5.5.5");
+  ip5.s_addr = inet_addr("128.1.2.3");
 
   BanInfo exact1(ip1, "nobody", 0, 32);
   BanInfo exact2(ip2, "nobody", 0, 32);
