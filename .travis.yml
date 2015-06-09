@@ -8,7 +8,7 @@ before_install:
   - cd cpputest/cpputest_build
   - autoreconf .. -i
   - ../configure
-  - make install
+  - sudo make install
   - cd ../..
 
 install:
