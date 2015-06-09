@@ -1,3 +1,6 @@
+# Configuration for Travis CI
+# https://travis-ci.org/kongr45gpen/bzflag
+
 language: cpp
 
 before_install:
