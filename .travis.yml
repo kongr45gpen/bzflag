@@ -12,8 +12,8 @@ before_install:
   - cd ../..
 
 install:
-  - autogen.sh
-  - ./configure.sh
+  - ./autogen.sh
+  - ./configure
 
 script:
   - make check
