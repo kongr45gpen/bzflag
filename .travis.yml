@@ -15,7 +15,8 @@ install:
   - ./autogen.sh
   - ./configure
   - make
+  - cd tests
   - make tests
 
 script:
-  - tests/tests
+  - ./tests
