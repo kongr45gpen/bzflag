@@ -1,5 +1,3 @@
-
-
 Information for the BZFlag Developer
 ====================================
 
