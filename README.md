@@ -1,3 +1,7 @@
+[![Version](https://img.shields.io/badge/bzflag-v2.4.4RC1-green.svg)]()
+[![Travis branch](https://img.shields.io/travis/bzflag-dev/bzflag.svg)]()
+[![GitHub license](https://img.shields.io/github/license/bzflag-dev/bzflag.svg)]()
+
 			    BZFlag 2.4.4-RC1
 			 http://BZFlag.org/
 		Copyright (c) 1993-2015 Tim Riker
