@@ -1,5 +1,5 @@
-			     BZFlag Release Notes
-			     ====================
+BZFlag Release Notes
+====================
 
 BZFlag 2.4.4-RC1
 ------------
